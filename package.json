@@ -1,0 +1,14 @@
+{
+  "name": "cypressfirstdemo",
+  "version": "1.0.0",
+  "description": "cypress demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec 'cypress/integration/googleTest/LaunchGoogle.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.1"
+  }
+}
